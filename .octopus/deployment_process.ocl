@@ -1,4 +1,5 @@
 step "run-a-script" {
+    condition = "Always"
     name = "Run a Script"
 
     action {
